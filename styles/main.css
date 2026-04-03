@@ -1,18 +1,18 @@
 /* RESET */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #e5e5e5;
+    background-color: #e6e6e6;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* NAVBAR */
 nav {
     background-color: #2b0a05;
-    padding: 20px 0;
+    padding: 18px 0;
 }
 
 .nav-container {
-    width: 90%;
+    width: 85%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -21,8 +21,8 @@ nav {
 
 .logo {
     color: white;
-    font-size: 18px;
-    letter-spacing: 2px;
+    font-size: 16px;
+    letter-spacing: 3px;
 }
 
 nav ul {
@@ -33,61 +33,64 @@ nav ul {
 
 nav li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 30px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    text-transform: uppercase;
-    font-size: 14px;
+    font-size: 13px;
+    letter-spacing: 1px;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    opacity: 0.7;
 }
 
 /* HERO SECTION */
 .hero {
-    width: 90%;
-    margin: 80px auto;
+    width: 85%;
+    margin: 100px auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-/* LEFT TEXT */
+/* TEXT AREA */
 .text {
-    max-width: 500px;
+    width: 45%;
+    text-align: center;
 }
 
 .script {
+    font-family: 'Great Vibes', cursive;
     color: #d48b2a;
-    font-style: italic;
-    font-size: 28px;
+    font-size: 36px;
     margin: 0;
 }
 
 .text h1 {
-    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
     margin: 10px 0;
+    letter-spacing: 2px;
 }
 
 .star {
     display: block;
     margin: 10px 0;
-    color: gray;
-    font-size: 20px;
+    color: #aaa;
+    font-size: 18px;
 }
 
 .text p {
-    color: #666;
-    line-height: 1.6;
+    color: #777;
+    line-height: 1.8;
+    font-size: 16px;
+    margin: 20px 0;
 }
 
 .btn {
-    display: inline-block;
-    margin-top: 15px;
     color: #d48b2a;
     text-decoration: none;
     font-weight: bold;
@@ -97,10 +100,11 @@ nav a:hover {
 
 /* IMAGE */
 figure {
+    width: 50%;
     margin: 0;
 }
 
 figure img {
-    width: 500px;
-    border-radius: 15px;
+    width: 100%;
+    border-radius: 20px;
 }
